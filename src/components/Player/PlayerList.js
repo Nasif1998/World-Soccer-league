@@ -1,7 +1,8 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faShoppingCart, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
-import './PlayerList.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faShoppingCart, faPlusSquare } from '@fortawesome/free-solid-svg-icons';
+import './PlayerList.css';
+
 
 const PlayerList = (props) => {
     const { name, image, value, country } = props.player
