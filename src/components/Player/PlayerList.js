@@ -4,7 +4,7 @@ import { faCoffee, faShoppingCart, faPlusSquare } from '@fortawesome/free-solid-
 import './PlayerList.css'
 
 const PlayerList = (props) => {
-    const { name, image, value } = props.player
+    const { name, image, value, country } = props.player
     const handleAddPlayer = props.handleAddPlayer;
     return (
         <div className="player">
@@ -13,6 +13,7 @@ const PlayerList = (props) => {
             </div>
             <div className="list-description">
                 <h4 className='player-name'>{name}</h4>
+                <p>Country: {country}</p>
                 <br />
                 <p>Value: {value}</p>
                 <br />
